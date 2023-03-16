@@ -1,15 +1,12 @@
 import './app.css';
-import CountUp from 'react-countup'
+import Navbar from './components/navbar/Navbar';
+import Home from './pages/home/Home'
 
 function App() {
   return (
     <main className="app">
-      Hello Jherrie
-      <CountUp
-          start={0}
-          end={100000}
-          duration={5}
-        /> 
+      <Navbar/>
+      <Home/>
     </main>
   );
 }

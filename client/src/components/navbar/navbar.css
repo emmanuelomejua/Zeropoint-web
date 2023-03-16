@@ -1,0 +1,93 @@
+.navbar{
+    display: flex;
+    height: 75px;
+    background-color: rgb(65, 63, 86);
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    position: fixed;
+    top: 0;
+}
+
+.navbar .scroll{
+    background-color: white; 
+}
+.left{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    margin-left: 10px;
+    gap: 5px;
+}
+
+.img{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+}
+
+.right{
+    flex: 1;
+}
+
+.rightNav{
+    margin-right: 35px;
+    text-transform: capitalize;
+    font-size: larger;
+    cursor: pointer;
+}
+
+ .btn{
+    padding: 15px;
+    background-color: rgb(205, 169, 50);
+    border: none;
+    border-radius: 0px 25px 0px 25px;
+    font-weight: 500;
+    color: white;
+}
+
+.btn:hover{
+    background-color: rgb(16, 241, 23);
+    transform: translate(1.5);
+}
+
+.iconWrapper{
+    display: none;
+}
+
+.icon{
+    color: white;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1200px){
+    .a{
+        display: none;
+    }
+    .b{
+        display: flex;
+        float: right;
+    }
+    .iconWrapper{
+        display: flex;
+        margin-right: 20px;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .rightNav{
+        display: none;
+    }
+    button{
+        display: none;
+    }
+
+    .iconWrapper{
+        display: flex;
+        margin-right: 20px;
+    }
+
+}
+
