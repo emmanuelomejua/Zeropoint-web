@@ -1,0 +1,84 @@
+.getInTouch{
+    display: flex;
+    height: 100vh;
+}
+
+.getLeft{
+    flex: 1;
+}
+
+.getImg{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.getRight{
+    flex: 1;
+}
+
+.getRight > h2{
+    font-size: 25px;
+    color: rgb(205, 169, 50);
+    margin-left: 70px;
+    font-weight: bold;
+}
+
+.getContainer{
+    margin: 5px 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(127, 255, 212, 0.353);
+}
+
+.getInput, .getBtn{
+    height: 40px;
+    width: 60%;
+    font-weight: bold;
+    margin-bottom: 40px;
+    border: none;
+    background-color: whitesmoke;
+    padding-left: 15px;
+    border-radius:   0px 20px 0px 20px;
+}
+
+.getInput{
+    outline: .1px solid gray;
+}
+/* .getInput{
+    outline: .5px solid rgba(126, 15, 15, 0.763);
+} */
+
+.a{
+    margin-top: 40px;
+}
+
+.textarea{
+    height: 100px;
+}
+
+.getBtn{
+    cursor: pointer;
+    border: none;
+    background-color:  rgb(205, 169, 50);
+    color: white;
+}
+
+@media screen and (max-width: 480px){
+    .getInTouch{
+        height: 150vh;
+    }
+    
+    .getLeft{
+        display: none
+    }
+
+    .getInput, .getBtn{
+        width: 70%;
+    }
+    .a{
+        margin-top: 10px;
+    }
+}

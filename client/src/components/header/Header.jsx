@@ -4,12 +4,14 @@ import img from '../../assets/web1.jpg'
 const Header = () => {
   return (
     <div className='header'>
+      <div className='headerWrapper'>
+        
        <div className='headerLeft'>
         <h4 className='headerTitle'>We are Zero Point IT Services</h4>
         <div className='mainHeader'>
-          <h1>We provide IT solutions to our clients</h1>
+          <h1 className='headDesc'> We provide IT solutions to our clients</h1>
           <p className='descHeader'>
-          React is an in-demand framework that'll bring real value to your career or next project. But like any technology, learning React can be tricky, and finding the right teacher can make things a whole lot easier
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae cum maiores neque reprehenderit. Consectetur illo, quos ducimus sapiente dolor temporibus deleniti, alias veritatis dolores ullam officiis, atque recusandae accusantium fugit
           </p>
           <button className='btnHeader'>Learn More</button>
         </div>
@@ -17,6 +19,8 @@ const Header = () => {
 
        <div className='headerRight'>
         <img src={img} alt='' className='headerImg'/>
+       </div>
+
        </div>
     </div>
   )
