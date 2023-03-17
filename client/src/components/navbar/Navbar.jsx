@@ -10,6 +10,7 @@ const Navbar = () => {
     setScrolled(window.scrollY === 0 ? false : true)
     return () => window.onscroll = null
   }
+  console.log(window.scrollY)
 
   return (
     <div className={scrolled ? 'navbar scroll' : 'navbar'}>
@@ -26,7 +27,7 @@ const Navbar = () => {
         <button className='rightNav btn b'>Get a Quote</button>
       </div>
 
-      <div className='iconWrapper'>
+      <div className={scrolled ? 'iconWrapper scrolling' : 'iconWrapper'}> 
         <ViewHeadlineSharp  className='icon'/>
       </div>
     </div>

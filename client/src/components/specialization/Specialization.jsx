@@ -2,8 +2,8 @@ import './specialization.css'
 
 const Specialization = () => {
   return (
-    <div>
-      
+    <div className='specialization'>
+      <h2>Our Specialization</h2>
     </div>
   )
 }
