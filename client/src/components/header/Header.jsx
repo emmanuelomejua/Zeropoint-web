@@ -1,5 +1,5 @@
 import './header.css'
-import img from '../../assets/1676721627373.jpg'
+import img from '../../assets/web1.jpg'
 
 const Header = () => {
   return (
