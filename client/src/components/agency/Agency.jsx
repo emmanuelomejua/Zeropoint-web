@@ -3,9 +3,7 @@ import './agency.css'
 const Agency = () => {
   return (
     <div className='agency'>
-      <div className='left'>
-        <img src='' alt='Agency' className='img'/>
-      </div>
+      
       <div className='right'>
         <h2 className='agencyhead'>Why our Agency</h2>
         <p className='desc'>
