@@ -1,11 +1,55 @@
 .agency{
     display: flex;
+    justify-content: space-between;
+    height: 75vh;
 }
 
 .left{
     flex: 1;
 }
 
+.imgAgency{
+    height: 90%;
+    width: 90%;
+    object-fit: cover;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
 .right{
     flex: 1;
+    margin: 20px;
+}
+
+.agencyhead{
+    text-align: center;
+    font-size: 42px;
+    font-weight: 600;
+    color:  rgb(205, 169, 50);
+}
+
+.descAgency{
+    margin-top: 15px;
+    font-weight: 14px;
+    color: gray;
+    word-spacing: 5px;
+    letter-spacing: 3px;
+}
+
+.countContainer{
+    display: flex;
+    justify-content: center;
+}
+
+.count{
+    height: 75px;
+    width: 100px;
+    background-color: aqua;
+    margin: 10px;
+}
+
+@media screen and (max-width: 480px){
+    .left{
+        display: none;
+    }
 }

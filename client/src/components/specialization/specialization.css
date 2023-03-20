@@ -1,0 +1,13 @@
+.specialization{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    margin: 20px;
+}
+
+.specialization > h2{
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    color:  rgb(205, 169, 50);
+}

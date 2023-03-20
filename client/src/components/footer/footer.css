@@ -1,0 +1,41 @@
+.footer{
+    margin-top: 40px;
+    width: 100%;
+}
+
+.footleft{
+    flex: 1;
+    margin: 20px;
+}
+
+.contAll{
+    display: flex;
+    flex-direction: column;
+}
+
+.cont{
+    display: flex;
+    align-items: center;
+}
+
+.cont > span{
+    font-weight: bold;
+}
+
+.footDesc{
+    font-size: 14px;
+    color: gray;
+    word-spacing: 5px;
+    letter-spacing: 2.5px;
+    word-wrap: wrap;
+}
+
+.fimage{
+    border-radius: 50%;
+    margin-right: 10px;
+    object-fit: cover;
+}
+
+.footright{
+    flex: 4;
+}
