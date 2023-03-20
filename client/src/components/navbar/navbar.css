@@ -50,6 +50,7 @@
     border-radius: 0px 25px 0px 25px;
     font-weight: 500;
     color: white;
+    transition: 0.5s;
 }
 
 .btn:hover{
