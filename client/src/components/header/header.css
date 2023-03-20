@@ -58,6 +58,7 @@
     background-color: rgb(16, 241, 23);
     border-radius: 25px 0px 25px 0px;
     transition: all 1s ease-in-out;
+    transform: scale(1.2);
 }
 
 .headerRight{

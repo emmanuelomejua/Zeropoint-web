@@ -10,7 +10,7 @@ const Navbar = () => {
     setScrolled(window.scrollY === 0 ? false : true)
     return () => window.onscroll = null
   }
-  console.log(window.scrollY)
+ 
 
   return (
     <div className={scrolled ? 'navbar scroll' : 'navbar'}>
