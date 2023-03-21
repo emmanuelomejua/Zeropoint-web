@@ -11,6 +11,9 @@ const Specialization = () => {
           <p className='pDesc'></p>
         </div>
       </div>
+      <div></div>
+      <div></div>
+      <div></div>
     </div>
   )
 }
