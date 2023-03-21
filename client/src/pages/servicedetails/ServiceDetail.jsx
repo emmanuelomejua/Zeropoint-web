@@ -1,6 +1,6 @@
 import './servicelist.css'
 
-const ServiceList = () => {
+const ServiceDetail = () => {
   return (
     <div>
       
@@ -8,4 +8,4 @@ const ServiceList = () => {
   )
 }
 
-export default ServiceList
+export default ServiceDetail

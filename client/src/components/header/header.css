@@ -5,6 +5,7 @@
     background-color: #0099ff;
     color: white;
     width: 100%;
+    height: max-content;
 }
 
 .headerWrapper{
@@ -17,6 +18,8 @@
     display: flex;
     flex-direction: column;
     margin: 50px;
+    width: 50%;
+    flex-wrap: wrap;
 }
 .headerTitle{
     font-size: 20px;
@@ -48,13 +51,16 @@
 .mainHeader {
     font-size: 1.3rem;
 }
-.headerLeft{
-    /* display: flex;
-    flex-direction: column; */
+/* .headerLeft{
+    display: flex;
+    flex-direction: column;
     
 }
 .descHeader {
-}
+
+}  */
+
+
 .btnHeader{
     margin-top: 10px;
     padding: 12px;
@@ -87,9 +93,29 @@
     clip-path: polygon(100% 0%, 100% 51%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
 }
 
+
+@media screen and (min-width: 1000px ) {
+    /* .headerLeft {
+        
+    } */
+    .descHeader{ 
+        width: 50%;
+    }
+
+}
+
+@media screen and (min-width: 568px ) and (max-width: 1000px){ 
+    .headerLeft {
+        width: 80%;
+        display: flex;
+        align-self: center;
+        flex-direction: column;
+    }
+}
+
 @media screen and (max-width: 480px){
     .header{
-        height: 100vh;
+        height: max-content;
     }
     .headerRight{
         display: none;
@@ -105,23 +131,6 @@
     }
     .headDesc{
         margin: 15px;
-    }
-    
-@media screen and (min-width: 568px ) and (max-width: 1000px){ 
-    .headerLeft {
-        width: 80%;
-        display: flex;
-        align-self: center;
-        flex-direction: column;
-    }
-}
-}
-@media screen and (min-width: 1000px ) {
-    .headerLeft {
-        
-    }
-    .descHeader{ 
-        width: 50%;
     }
 
 }

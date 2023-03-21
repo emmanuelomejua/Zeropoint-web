@@ -1,6 +1,6 @@
 import './agency.css'
 import img2 from '../../assets/web1.jpg'
-import count from 'react-countup'
+
 
 const Agency = () => {
   return (
@@ -16,9 +16,7 @@ const Agency = () => {
         </p>
 
         <div  className='countContainer'>
-        <span className='count'>
-          
-        </span>
+        <span className='count'></span>
         <span className='count'></span>
         <span className='count'></span>
         </div>

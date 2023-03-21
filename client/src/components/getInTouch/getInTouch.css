@@ -71,13 +71,13 @@
     color: white;
 }
 
-@media screen and (max-width: 480px){
+@media screen and (max-width: 480px) {
+    .getLeft{
+        display: none
+    }
     .getContainer{
         margin: 10px;
         height: 100%;
-    }
-    .getLeft{
-        display: none
     }
 
     .getInput, .getBtn{
