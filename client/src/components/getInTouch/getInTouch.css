@@ -1,0 +1,89 @@
+.getInTouch{
+    display: flex;
+    height: 100vh;
+}
+
+.getLeft{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.getImg{
+    width: 75%;
+    height: 70%;
+    object-fit: cover;
+    border-radius: 25%;
+    opacity: .5;
+}
+
+.getRight{
+    flex: 1;
+}
+
+.rightHead{
+    font-size: 28px;
+    color: rgb(205, 169, 50);
+    margin-left: 70px;
+    font-weight: 500;
+}
+
+.getContainer{
+    height: 85%;
+    margin: 5px 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(127, 255, 212, 0.353);
+    border-radius: 30px;
+}
+
+.getInput, .getBtn{
+    height: 40px;
+    width: 60%;
+    font-weight: bold;
+    margin-bottom: 40px;
+    border: none;
+    background-color: whitesmoke;
+    padding-left: 15px;
+    border-radius:   0px 20px 0px 20px;
+}
+
+
+
+.getInput:focus{
+    outline: .1px solid gray;
+}
+
+.a{
+    margin-top: 40px;
+}
+.textarea{
+    height: 100px;
+}
+.getBtn{
+    cursor: pointer;
+    border: none;
+    background-color:  rgb(205, 169, 50);
+    color: white;
+}
+
+@media screen and (max-width: 480px) {
+    .getLeft{
+        display: none
+    }
+    .getContainer{
+        margin: 10px;
+        height: 100%;
+    }
+
+    .getInput, .getBtn{
+        width: 70%;
+    }
+    .a{
+        margin-top: 20px;
+    }
+}

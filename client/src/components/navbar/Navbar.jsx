@@ -12,11 +12,13 @@ const Navbar = () => {
     setScrolled(window.scrollY === 0 ? false : true)
     return () => window.onscroll = null
   }
+ 
+
   
   return (
     <div className={scrolled ? 'navbar scroll' : 'navbar'}>
       <div className='left'>
-      <img src={img} alt='Logo' className='img'/>
+    <img src={img} alt='Logo' className='img'/>
       Zero Point
       </div>
 
