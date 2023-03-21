@@ -5,13 +5,10 @@ import count from 'react-countup'
 const Agency = () => {
   return (
     <div className='agency'>
-<<<<<<< HEAD
       <div className='left'>
         <img src={img2} alt='Agency' className='imgAgency'/>
       </div>
-=======
       
->>>>>>> b9efcef054cacf5dede638810b21a667ade4f7a4
       <div className='right'>
         <h1 className='agencyhead'>Why our Agency?</h1>
         <p className='descAgency'>

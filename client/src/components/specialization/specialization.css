@@ -1,9 +1,10 @@
-<<<<<<< HEAD
 .specialization{
     display: flex;
     height: 100vh;
     justify-content: center;
     margin: 20px;
+    width: 100%;
+    text-align: center;
 }
 
 .specialization > h2{
@@ -11,9 +12,4 @@
     font-weight: bold;
     font-size: 40px;
     color:  rgb(205, 169, 50);
-=======
-.specialization {
-    width: 100%;
-    text-align: center;
->>>>>>> b9efcef054cacf5dede638810b21a667ade4f7a4
 }
