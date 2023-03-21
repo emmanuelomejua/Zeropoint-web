@@ -59,6 +59,7 @@
 
 @media screen and (max-width: 480px){
     .newletter{
+        margin-top: 100px;
         height: 50vh;
         display: flex;
         flex-direction: column;

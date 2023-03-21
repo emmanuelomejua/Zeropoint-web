@@ -23,20 +23,22 @@
     flex: 1;
 }
 
-.getRight > h2{
-    font-size: 25px;
+.rightHead{
+    font-size: 28px;
     color: rgb(205, 169, 50);
     margin-left: 70px;
-    font-weight: bold;
+    font-weight: 500;
 }
 
 .getContainer{
+    height: 85%;
     margin: 5px 70px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     background-color: rgba(127, 255, 212, 0.353);
+    border-radius: 30px;
 }
 
 .getInput, .getBtn{
@@ -50,21 +52,18 @@
     border-radius:   0px 20px 0px 20px;
 }
 
-.getInput{
+
+
+.getInput:focus{
     outline: .1px solid gray;
 }
-/* .getInput{
-    outline: .5px solid rgba(126, 15, 15, 0.763);
-} */
 
 .a{
     margin-top: 40px;
 }
-
 .textarea{
     height: 100px;
 }
-
 .getBtn{
     cursor: pointer;
     border: none;
@@ -73,10 +72,10 @@
 }
 
 @media screen and (max-width: 480px){
-    .getInTouch{
-        height: 150vh;
+    .getContainer{
+        margin: 10px;
+        height: 100%;
     }
-    
     .getLeft{
         display: none
     }
@@ -85,6 +84,6 @@
         width: 70%;
     }
     .a{
-        margin-top: 10px;
+        margin-top: 20px;
     }
 }

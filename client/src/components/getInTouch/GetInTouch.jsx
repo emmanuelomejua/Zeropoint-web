@@ -9,7 +9,7 @@ const GetInTouch = () => {
       </div>
 
       <div className='getRight'>
-        <h2>Get in touch with us</h2>
+        <h2 className='rightHead'>Get in touch with us</h2>
         <form className='getContainer'>
           <input type='text' placeholder='Full Name' className='getInput a'/>
           <input type='email' placeholder='Email Address' className='getInput'/>

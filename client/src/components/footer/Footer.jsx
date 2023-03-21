@@ -1,5 +1,5 @@
 import FooterDown from '../footerDown/FooterDown'
-import{ Facebook, Twitter, Instagram} from '@mui/icons-material'
+import{ Facebook, Twitter, Instagram, FacebookOutlined} from '@mui/icons-material'
 import './footer.css'
 import img from '../../assets/1676721627373.jpg'
 
@@ -23,9 +23,9 @@ const Footer = () => {
               </div>
 
               <div className='ico'>
-                <Facebook className='icon'/>
-                <Twitter className='icon'/>
-                <Instagram className='icon'/>
+                <FacebookOutlined/>
+                <Twitter/>
+                <Instagram/>
               </div>
 
       </div>

@@ -49,6 +49,10 @@
 }
 
 @media screen and (max-width: 480px){
+    .agency{
+        height: 100vh;
+        margin-bottom: 100px;
+    }
     .left{
         display: none;
     }
