@@ -7,6 +7,10 @@ const BlogSchema = new Schema({
         type: String,
         required: true
     },
+    author: {
+        type: String,
+        required: true
+    },
     desc: {
         type: String,
         required: true
@@ -17,7 +21,7 @@ const BlogSchema = new Schema({
     },
     category: {
         type: String
-    }
+    },
 }, {timestamps: true})
 
 const Blog = ('Blog', BlogSchema)
