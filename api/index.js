@@ -13,6 +13,13 @@ const {json, urlencoded} = express
 
 const app = express()
 
+//import routes
+const authRoute = require('./routes/authRoute')
+const blogRoute = require('./routes/blogRoute')
+const newletterRoute = require('./routes/newsRoute')
+
+
+//middlewares
 app.use(morgan('common'))
 app.use(json())
 app.use(urlencoded({extended: true}))
@@ -22,6 +29,12 @@ app.use(cors({
     methods: ['PUT', 'DELETE', 'POST', 'PATCH', 'GET'],
     allowedHeaders: ['Content-Type', 'Authorization']
 }))
+
+
+//routes use
+app.use('/api/auth', authRoute)
+app.use('/api/blog', blogRoute)
+app.use('/api/newsletter', newletterRoute)
 
 const port = process.env.PORT
 

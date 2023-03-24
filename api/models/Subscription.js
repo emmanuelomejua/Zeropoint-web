@@ -5,6 +5,6 @@ const SubscribeSchema = new Schema({
 
 })
 
-const Subscribe = ('Subscribe', SubscribeSchema)
+const Subscribe =  model('Subscribe', SubscribeSchema)
 
-module.exports = model(Subscribe)
+module.exports = (Subscribe)

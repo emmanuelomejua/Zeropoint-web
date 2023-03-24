@@ -24,5 +24,5 @@ const BlogSchema = new Schema({
     },
 }, {timestamps: true})
 
-const Blog = ('Blog', BlogSchema)
-module.exports = model(Blog)
+const Blog =  model('Blog', BlogSchema)
+module.exports = (Blog)

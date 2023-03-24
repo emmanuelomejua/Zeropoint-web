@@ -5,6 +5,6 @@ const PortfolioSchema = new Schema({
 
 })
 
-const Portfolio = ('Portfolio', PortfolioSchema)
+const Portfolio =  model('Portfolio', PortfolioSchema)
 
-module.exports = model(Portfolio)
+module.exports = Portfolio
