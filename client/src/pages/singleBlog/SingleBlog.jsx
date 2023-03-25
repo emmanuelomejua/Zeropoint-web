@@ -7,7 +7,6 @@ import BlogDetail from '../../components/blogdetail/BlogDetail'
 const SingleBlog = () => {
   return (
     <main className='singleBlog'>
-      <Navbar/>
       <BlogDetail/>
       <Footer/>
       <FooterDown/>

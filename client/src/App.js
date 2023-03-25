@@ -5,6 +5,7 @@ import Home from './pages/home/Home'
 import SingleBlog from './pages/singleBlog/SingleBlog';
 import SingleService from './pages/singleservice/SingleService'
 import Contact from './pages/contact/Contact'
+import BlogList from './pages/blogList/BlogList';
 
 function App() {
   return (
@@ -13,7 +14,8 @@ function App() {
       <Routes>
         <Route exact path='/' element={ <Home/>}/>
         <Route exact path='/contact' element={ <Contact/>}/>
-        <Route exact path='/blog' element={ <SingleBlog/>}/>
+        <Route exact path='/blog:id' element={ <SingleBlog/>}/>
+        <Route exact path='/blog' element={ <BlogList/>}/>
         <Route exact path='/service' element={ <SingleService/>}/>
       </Routes>
     </main>
