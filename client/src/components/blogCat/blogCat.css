@@ -63,3 +63,9 @@ h4{
     color: wheat;
     cursor: pointer;
 }
+
+.blogDesc1::first-letter{
+    margin-left: 25px;
+    font-size: 24px;
+    text-transform: uppercase;
+}
