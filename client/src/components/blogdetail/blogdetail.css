@@ -1,0 +1,49 @@
+.blogdetail{
+    display: flex;
+}
+
+.blogCat{
+    flex: 2;
+}
+
+.details{
+    flex: 3;
+}
+
+.blogImg1{
+    display: flex;
+    justify-content: center;
+    margin: 10px auto;
+    width: 80%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.wrap{
+    margin: 10px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.blogDate1{
+    font-size: normal;
+    font-style: italic;
+}
+
+.blogAuthor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    gap: 5px;
+}
+
+@media screen and (max-width: 480px){
+    .blogdetail{
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
