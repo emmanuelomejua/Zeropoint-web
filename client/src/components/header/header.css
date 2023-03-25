@@ -4,7 +4,6 @@
     padding: 40px;
     background-color: #0099ff;
     color: white;
-    width: 100%;
     height: max-content;
 }
 
@@ -85,13 +84,6 @@
     flex: 1;
 }
 
-.headerImg{
-    height: 100%;
-    width: 100%;
-
-    object-fit: cover;
-    clip-path: polygon(100% 0%, 100% 51%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
-}
 
 
 @media screen and (min-width: 1000px ) {
