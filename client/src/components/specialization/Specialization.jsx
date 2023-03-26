@@ -9,7 +9,7 @@ const Specialization = () => {
         <div className='items'>
           <img src='' alt='' className='sImage'/>
           <p className='pDesc'></p>
-        </div>
+          </div>
       <div className='specialization-container'>
         <div>
           <p>SEO - Search Engine Optimization</p>
@@ -27,7 +27,6 @@ const Specialization = () => {
       <div></div>
       <div></div>
       <div></div>
-    </div>
     </div>
   )
 }
