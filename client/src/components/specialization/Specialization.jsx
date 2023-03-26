@@ -27,6 +27,7 @@ const Specialization = () => {
       <div></div>
       <div></div>
       <div></div>
+      </div>
     </div>
     </div>
   )
