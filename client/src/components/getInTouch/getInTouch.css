@@ -1,13 +1,14 @@
 .getInTouch{
     display: flex;
-    flex-direction: column;
+    height: 100vh;
 }
 
 .getLeft{
+    flex: 1;
     display: flex;
     justify-content: center;
     align-items: center;
-    display: none;
+
 }
 
 .getImg{
@@ -19,7 +20,7 @@
 }
 
 .getRight{
-    padding: 10px;
+    flex: 1;
 }
 
 .rightHead{
@@ -30,21 +31,21 @@
 }
 
 .getContainer{
+    height: 85%;
+    margin: 5px 70px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 10px;
     flex-direction: column;
     background-color: rgba(127, 255, 212, 0.353);
     border-radius: 30px;
-    width: 100%;
 }
 
 .getInput, .getBtn{
     height: 40px;
-    width: 80%;
+    width: 60%;
     font-weight: bold;
-    margin: 20px;
+    margin-bottom: 40px;
     border: none;
     background-color: whitesmoke;
     padding-left: 15px;
@@ -70,17 +71,9 @@
     color: white;
 }
 
-@media screen and (min-width: 800px) {
-    .getInTouch{
-        flex-direction: row;
-     }
+@media screen and (max-width: 480px) {
     .getLeft{
-        display: flex;
-        flex-direction: row;
-        width: 50%;
-    }
-    .getRight{ 
-        width: 50%;
+        display: none
     }
     .getContainer{
         margin: 10px;

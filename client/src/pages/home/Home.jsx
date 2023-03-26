@@ -6,19 +6,17 @@ import GetInTouch from '../../components/getInTouch/GetInTouch'
 import NewsLetter from '../../components/newsletter/NewsLetter'
 import Footer from '../../components/footer/Footer'
 import FooterDown from '../../components/footerDown/FooterDown'
-import Features from '../../components/features/Features'
 
 const Home = () => {
   return (
     <div className='home'>
       <Header/>
-        <Specialization/>
-        <Agency/>
-        <Features/>
-        <GetInTouch/>
-        <NewsLetter/>
-        <Footer/>
-        <FooterDown/>
+      <Specialization/>
+      <Agency/>
+      <GetInTouch/>
+      <NewsLetter/>
+      <Footer/>
+      <FooterDown/>
     </div>
   )
 }

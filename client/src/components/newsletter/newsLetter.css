@@ -1,62 +1,87 @@
 .newletter{
-    margin-top: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
     height: 40vh;
-    background-color: #f5f5f5;
- 
+    background-color: rgb(65, 63, 86);
+    color: white;
+    
+}
+
+.newsRight{
+    flex: 3;
+    text-transform: capitalize;
+    flex-wrap: wrap;
+    margin-left: 30px;
+}
+
+.newsLeft{
+    flex: 2;
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
 }
 
 .newsContainer{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
-.newsTitle{
-    font-size: 40px;
-    margin: 20px;
-    text-align: center;
-}
-
-.newsDesc{
-    font-size: 20px;
-    font-weight: 300;
-    margin-bottom: 20px;
-    text-align: center;
-}
-
-.nInput{
-    width: 50%;
-    height: 40px;
-    background-color: white;
-    display: flex;
-    justify-content: space-between;
-    border: .5px solid lightgray;
-    overflow-x: scroll;
-
+    width: 400px;
+    border: none;
+    padding: 2px;
+    background-color: whitesmoke;
+    border-radius: 0px 20px 0 20px;
 }
 
 .newsInput{
-    border: none;
-    flex: 5;
+    height: 50px;
+    width: 250px;
+    font-size: 20px;
     outline: none;
-    padding-left: 10px;
+    border: none;
+    padding-left: 5px;
+    border-radius: 0px 20px 0 20px;
 }
 
-.nBtn{
-    flex: 1;
+.newsBtn{
+    height: 50px;
+    width: 140px;
+    font-size: 16px;
+    font-weight: bold;
     border: none;
-    background-color: teal;
+    background-color: rgb(106, 215, 11);
+    border-radius:  0px 20px 0px 20px ;
     color: white;
+    cursor: pointer;
+}
+
+.newsBtn:hover{
+    background-color: rgb(205, 169, 50);
 }
 
 @media screen and (max-width: 480px){
-    .nInput{
+    .newletter{
+        margin-top: 100px;
+        height: 50vh;
         display: flex;
         flex-direction: column;
-        width: 50%;
     }
-    .nBtn{
-    flex: 2;
+
+    .newsRight{
+        justify-content: center;
+        margin-left: 5px;
+        margin-top: 30px;
     }
+    .newsRight > h1{
+        font-size: 24px;
+    }
+    .newsContainer{
+        width: 350px;
+        display: flex;
+        flex-direction: column;
+    } 
+    .newsBtn{
+        width: 40px;
+        background-color: red;
+        color: black;
+    } 
+ 
 }

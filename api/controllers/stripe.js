@@ -13,5 +13,3 @@ const Payment = (req, res) => {
         }
     })
 }
-
-module.exports = Payment
