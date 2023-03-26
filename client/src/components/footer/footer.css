@@ -1,41 +1,69 @@
 .footer{
     margin-top: 40px;
     width: 100%;
+    color: white;
+    padding: 5px;
+    background-image: linear-gradient(to right, rgb(48, 0, 93), rgb(68, 26, 93), rgb(48, 0, 93));
 }
-
-.footleft{
-    flex: 1;
-    margin: 20px;
+.contAll {
+    margin: 5px;
 }
-
-.contAll{
-    display: flex;
-    flex-direction: column;
-}
-
-.cont{
+.cont {
+    border-radius: 50%;
     display: flex;
     align-items: center;
-}
-
-.cont > span{
+    font-size: 23px;
     font-weight: bold;
 }
-
-.footDesc{
-    font-size: 14px;
-    color: gray;
-    word-spacing: 5px;
-    letter-spacing: 2.5px;
-    word-wrap: wrap;
+.cont > span {
+    margin-left: 5px;
+}
+.footDesc {
+    margin-top: 15px;
+}
+.ico {
+    margin-top: 15px;
+    font-size: 10px;
+}
+.footLeft {
+    width: 100%;
 }
 
-.fimage{
-    border-radius: 50%;
-    margin-right: 10px;
-    object-fit: cover;
+.hr { 
+    display: flex;
+}
+.footerLinks {
+
+    margin: 5px;
+    padding: 10px;
+}
+.footerLinks > ul {
+    list-style-type: none;
+    margin-top: 25px;
+    
+}
+.footerLinks > ul > li {
+    padding: 5px
 }
 
-.footright{
-    flex: 4;
-}
+@media screen and (min-width: 680px){
+    .footer{
+        display: flex;
+        flex-direction: row;
+        
+        flex-wrap: wrap;
+        padding: 20px 50px;
+    }
+    .contAll {
+        
+        width: 170px
+    }
+    .footerLinks {
+        width: 170px;
+    }
+ }
+ @media screen and (min-width: 1000px) {
+    .contAll{ 
+        width: 100%
+    }
+ }
