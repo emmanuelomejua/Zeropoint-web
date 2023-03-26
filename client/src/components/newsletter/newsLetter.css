@@ -2,25 +2,29 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
+    width: 100%;
     height: 40vh;
     background-color: rgb(65, 63, 86);
     color: white;
-    padding: 10px;
+    
 }
 
 .newsRight{
-    text-align: center;
+    flex: 3;
+    text-transform: capitalize;
+    flex-wrap: wrap;
+    margin-left: 30px;
 }
 
 .newsLeft{
+    flex: 2;
     display: flex;
     align-items: center;
     margin-left: 15px;
-    margin-top: 20px
 }
 
 .newsContainer{
+    width: 400px;
     border: none;
     padding: 2px;
     background-color: whitesmoke;
@@ -28,7 +32,8 @@
 }
 
 .newsInput{
-    height: 20px;
+    height: 50px;
+    width: 250px;
     font-size: 20px;
     outline: none;
     border: none;
@@ -37,7 +42,7 @@
 }
 
 .newsBtn{
-    height: 40px;
+    height: 50px;
     width: 140px;
     font-size: 16px;
     font-weight: bold;
@@ -52,23 +57,31 @@
     background-color: rgb(205, 169, 50);
 }
 
-@media screen and (min-width: 800px){
+@media screen and (max-width: 480px){
     .newletter{
         margin-top: 100px;
+        height: 50vh;
         display: flex;
-        flex-direction: row;
-        
+        flex-direction: column;
     }
-    .newsLeft{
-        width: 50%;
-        justify-content: center;
-    }
+
     .newsRight{
         justify-content: center;
+        margin-left: 5px;
         margin-top: 30px;
-        width: 50%;;
     }
-    
-    
+    .newsRight > h1{
+        font-size: 24px;
+    }
+    .newsContainer{
+        width: 350px;
+        display: flex;
+        flex-direction: column;
+    } 
+    .newsBtn{
+        width: 40px;
+        background-color: red;
+        color: black;
+    } 
  
 }

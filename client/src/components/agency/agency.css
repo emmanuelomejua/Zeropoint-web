@@ -1,23 +1,25 @@
 .agency{
     display: flex;
-    flex-direction: column;
     justify-content: space-between;
+    height: 75vh;
+}
+
+.left{
+    flex: 1;
 }
 
 .imgAgency{
-    height: 200px;
-    width: 200px;
+    height: 90%;
+    width: 90%;
     object-fit: cover;
     border-radius: 50%;
     cursor: pointer;
-
-}
-.agency-left {
-    display: flex;
-    justify-content: center;
-    
 }
 
+.right{
+    flex: 1;
+    margin: 20px;
+}
 
 .agencyhead{
     text-align: center;
@@ -32,54 +34,26 @@
     color: gray;
     word-spacing: 5px;
     letter-spacing: 3px;
-    padding: 10px;
 }
 
 .countContainer{
     display: flex;
     justify-content: center;
-    flex-direction: column;
-    margin-top: 15px;
-    align-items: center;
-    
 }
 
 .count{
     height: 75px;
-    width: 80%;
+    width: 100px;
     background-color: aqua;
     margin: 10px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    border-radius: 7px;
-    box-shadow: 1px 1px 20px 1px rgb(223, 223, 223);
 }
 
-.countNumber {
-    font-size: 30px;
-    font-weight: bold;
-}
-@media screen and (min-width: 800px){
+@media screen and (max-width: 480px){
     .agency{
-        flex-direction: row;
+        height: 100vh;
+        margin-bottom: 100px;
     }
-    .agency-right {
-        width: 50%;
-       
-    }
-    .agency-left {
-        display: flex;
-        justify-content: center;
-        width: 50%;
-        align-items: center;
-    }
-    .imgAgency{
-        height: 400px;
-        width: 400px;
-    }
-    .countContainer {
-        flex-direction: row;
+    .left{
+        display: none;
     }
 }
