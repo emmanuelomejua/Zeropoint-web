@@ -9,6 +9,7 @@ const Specialization = () => {
         <div className='items'>
           <img src='' alt='' className='sImage'/>
           <p className='pDesc'></p>
+<<<<<<< HEAD
           </div>
       <div className='specialization-container'>
         <div>
@@ -22,12 +23,17 @@ const Specialization = () => {
         <div>
           <p>Digital Marketing</p>
           <p>Mauris ut felis malesuada eros varius tristique a at orci. Nulla vulputate, leo sit amet rhoncus suscipit, enim ex venenatis ipsum, et porttitor.</p>
+=======
+>>>>>>> cfa961d (nil)
         </div>
       </div>
       <div></div>
       <div></div>
       <div></div>
+<<<<<<< HEAD
       </div>
+=======
+>>>>>>> cfa961d (nil)
     </div>
   )
 }

@@ -17,7 +17,6 @@ const app = express()
 const authRoute = require('./routes/authRoute')
 const blogRoute = require('./routes/blogRoute')
 const newletterRoute = require('./routes/newsRoute')
-const stripeRoute = require('./routes/stripeRoute')
 
 
 //middlewares
@@ -36,7 +35,6 @@ app.use(cors({
 app.use('/api/auth', authRoute)
 app.use('/api/blog', blogRoute)
 app.use('/api/newsletter', newletterRoute)
-app.use('/api/stripe', stripeRoute)
 
 const port = process.env.PORT
 
