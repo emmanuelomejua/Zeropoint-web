@@ -7,6 +7,7 @@ import NewsLetter from '../../components/newsletter/NewsLetter'
 import Footer from '../../components/footer/Footer'
 import FooterDown from '../../components/footerDown/FooterDown'
 import Features from '../../components/features/Features'
+import Subscribe from '../../components/plansubscribe/Subscribe'
 
 const Home = () => {
   return (
@@ -17,6 +18,7 @@ const Home = () => {
         <Features/>
         <GetInTouch/>
         <NewsLetter/>
+        <Subscribe/>
         <Footer/>
         <FooterDown/>
     </div>
