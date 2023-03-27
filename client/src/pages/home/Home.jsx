@@ -6,7 +6,7 @@ import GetInTouch from '../../components/getInTouch/GetInTouch'
 import NewsLetter from '../../components/newsletter/NewsLetter'
 import Footer from '../../components/footer/Footer'
 import FooterDown from '../../components/footerDown/FooterDown'
-// import Features from '../../components/features/Features'
+import Features from '../../components/features/Features'
 
 const Home = () => {
   return (
@@ -14,7 +14,7 @@ const Home = () => {
       <Header/>
         <Specialization/>
         <Agency/>
-        {/* <Features/> */}
+        <Features/>
         <GetInTouch/>
         <NewsLetter/>
         <Footer/>
