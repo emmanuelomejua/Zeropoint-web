@@ -1,0 +1,60 @@
+.blogcat{
+    margin-top: 45px;
+    display: flex;
+    flex-direction: column;
+    position: sticky;
+    top: 0;
+}
+
+.topcat{
+    height: 100px;
+    background-color:  rgb(205, 169, 50);
+    width: 300px;
+    display: flex;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.inputCont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    border: 1px solid gray;
+    height: max-content;
+}
+
+.input1{
+    height: 35px;
+    border: none;
+    outline: none;
+    padding-left: 7.5px;
+}
+
+.centercat, .dcat{
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+    gap: 20px;
+}
+
+.catTitle{
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 24px;
+    color:   rgb(205, 169, 50);
+    margin-left: 12.5%;
+}
+
+.catItem{
+    text-align: center;
+    background-color: gray;
+    font-weight: bold;
+    font-size: large;
+    padding: 15px;
+    color: whitesmoke;
+    cursor: pointer;
+    width: 75%;
+    margin: auto;
+}

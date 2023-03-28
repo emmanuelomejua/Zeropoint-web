@@ -1,0 +1,21 @@
+.bloglist{
+    margin-top: 100px;
+    display: flex;
+}
+
+.sideList{
+    flex: 2;
+}
+
+.mainList{
+    flex: 4;
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 480px){
+    .bloglist{
+        flex-direction: column;
+    }
+}
