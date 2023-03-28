@@ -58,3 +58,9 @@
     width: 75%;
     margin: auto;
 }
+
+@media screen and (max-width: 480px){
+    .topcat{
+        display: none;
+    }
+}

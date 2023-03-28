@@ -12,10 +12,19 @@
     display: flex;
     gap: 50px;
     flex-wrap: wrap;
+    margin-left: 50px;
+}
+
+@media screen and (max-width: 900px){
+    
 }
 
 @media screen and (max-width: 480px){
     .bloglist{
         flex-direction: column;
+    }
+    .mainList{
+        gap: 30px;
+        margin-left: 20px;
     }
 }

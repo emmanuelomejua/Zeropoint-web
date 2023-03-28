@@ -6,16 +6,17 @@ const BlogList = () => {
   return (
     <>
        <div className='bloglist'>
-          <div className='sideList'>
-              <BlogCat/>
-          </div>
         <div className='mainList'>
-         <Blog/>
-         <Blog/>
-         <Blog/>
-         <Blog/>
-         <Blog/>
-        </div>
+          <Blog/>
+          <Blog/>
+          <Blog/>
+          <Blog/>
+          <Blog/>
+          </div>
+
+          <div className='sideList'>
+            <BlogCat/>
+          </div>
        </div>
     </>
 
