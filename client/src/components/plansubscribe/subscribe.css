@@ -1,0 +1,44 @@
+.subscribe-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.plan-detail {
+    text-align: center;
+    margin: 10px 40px;
+    padding: 25px 15px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 20px 1px rgb(223, 223, 223);
+}
+.plan-detail > h3 {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.plan-detail > ul {
+    list-style-type: none;
+}
+.plan-detail > ul > li {
+    margin: 10px;
+}
+.plan-detail > button {
+    margin-top: 10px;
+    background-color: rgba(255, 0, 0, 0);
+    border: 1px solid rgb(177, 59, 79);
+    color: black
+}
+.plan-detail:hover {
+    background-image: linear-gradient(to right, #e9447e, #FFBA82);
+    color: white;
+}
+
+@media screen and (min-width: 700px){
+    .subscribe-container {
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .plan-detail {
+        width: 25%;
+    }
+}
