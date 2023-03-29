@@ -1,10 +1,32 @@
+import { Person2Rounded } from '@mui/icons-material'
 import './blogdwtail.css'
+import img from '../../assets/thum2.jpg'
 
 
 const BlogDetail = () => {
   return (
-    <div>
-      Blog Details here
+    <div className='details'>
+      <img src={img} alt='' className='dImg'/>
+
+      <div className='dInfo'>
+      <h2 className='bTitle'>Nulla vulputate, leo sit amet rhoncus suscipit, enim ex venenatis ipsum, et porttitor</h2>
+
+      <div className='cont1'>
+        <span className='dDate'>{new Date().toDateString()}</span>
+
+        <span className='authCont'>
+          <Person2Rounded/>
+            <span className='author'>By Blessing Peter</span>
+        </span>
+      </div>
+
+      
+     <p className='dDesc'>
+      Mauris ut felis malesuada eros varius tristique a at orci. Nulla vulputate, leo sit amet rhoncus suscipit, enim ex venenatis ipsum, et porttitor Mauris ut felis malesuada eros varius tristique a at orci. Mauris ut felis malesuada eros varius tristique a at orci. Nulla vulputate, leo sit amet rhoncus suscipit, enim ex venenatis ipsum, et porttitor Mauris ut felis malesuada eros varius tristique a at orci.  Mauris ut felis malesuada eros varius tristique a at orci. Nulla vulputate, leo sit amet rhoncus suscipit, enim ex venenatis ipsum, et porttitor Mauris ut felis malesuada eros varius tristique a at orci. Mauris ut felis malesuada eros varius tristique a at orci. Nulla vulputate, leo sit amet rhoncus suscipit, enim ex venenatis ipsum, et porttitor Mauris ut felis malesuada eros varius tristique a at orci Mauris ut felis malesuada eros varius tristique a at orci. Nulla vulputate, leo sit amet rhoncus suscipit, enim ex venenatis ipsum, et porttitor Mauris ut felis malesuada eros varius tristique a at orci Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati cum voluptatum sapiente magni eos in quam porro soluta, voluptatem, ducimus eveniet facilis autem tempore, nisi suscipit voluptate sed fuga sint. Mauris ut felis malesuada eros varius tristique a at orci. Nulla vulputate, leo sit amet rhoncus suscipit, enim ex venenatis ipsum, et porttitor Mauris ut felis malesuada eros varius tristique a at orci. Mauris ut felis malesuada eros varius tristique a at orci. Nulla vulputate, leo sit amet rhoncus suscipit, enim ex venenatis ipsum, et porttitor Mauris ut felis malesuada eros varius tristique a at orci Mauris ut felis malesuada eros varius tristique a at orci. Nulla vulputate, leo sit amet rhoncus suscipit, enim ex venenatis ipsum, et porttitor Mauris ut felis malesuada eros varius tristique a at orci Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati cum voluptatum sapiente magni eos in quam porro soluta, voluptatem, ducimus eveniet facilis autem tempore, nisi suscipit voluptate sed fuga sint.
+      Mauris ut felis malesuada eros varius tristique a at orci. Nulla vulputate, leo sit amet rhoncus suscipit, enim ex venenatis ipsum, et porttitor Mauris ut felis malesuada eros varius tristique a at orci. Mauris ut felis malesuada eros varius tristique a at orci. Nulla vulputate, leo sit amet rhoncus suscipit, enim ex venenatis ipsum, et porttitor Mauris ut felis malesuada eros varius tristique a at orci.  Mauris ut felis malesuada eros varius tristique a at orci. Nulla vulputate, leo sit amet rhoncus suscipit, enim ex venenatis ipsum, et porttitor Mauris ut felis malesuada eros varius tristique a at orci. Mauris ut felis malesuada eros varius tristique a at orci. Nulla vulputate, leo sit amet rhoncus suscipit, enim ex venenatis ipsum, et porttitor Mauris ut felis malesuada eros varius tristique a at orci Mauris ut felis malesuada eros varius tristique a at orci. Nulla vulputate, leo sit amet rhoncus suscipit, enim ex venenatis ipsum, et porttitor Mauris ut felis malesuada eros varius tristique a at orci Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati cum voluptatum sapiente magni eos in quam porro soluta, voluptatem, ducimus eveniet facilis autem tempore, nisi suscipit voluptate sed fuga sint. Mauris ut felis malesuada eros varius tristique a at orci. Nulla vulputate, leo sit amet rhoncus suscipit, enim ex venenatis ipsum, et porttitor Mauris ut felis malesuada eros varius tristique a at orci. Mauris ut felis malesuada eros varius tristique a at orci. Nulla vulputate, leo sit amet rhoncus suscipit, enim ex venenatis ipsum, et porttitor Mauris ut felis malesuada eros varius tristique a at orci Mauris ut felis malesuada eros varius tristique a at orci. Nulla vulputate, leo sit amet rhoncus suscipit, enim ex venenatis ipsum, et porttitor Mauris ut felis malesuada eros varius tristique a at orci Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati cum voluptatum sapiente magni eos in quam porro soluta, voluptatem, ducimus eveniet facilis autem tempore, nisi suscipit voluptate sed fuga sint.
+      Mauris ut felis malesuada eros varius tristique a at orci. Nulla vulputate, leo sit amet rhoncus suscipit, enim ex venenatis ipsum, et porttitor Mauris ut felis malesuada eros varius tristique a at orci. Mauris ut felis malesuada eros varius tristique a at orci. Nulla vulputate, leo sit amet rhoncus suscipit, enim ex venenatis ipsum, et porttitor Mauris ut felis malesuada eros varius tristique a at orci.  Mauris ut felis malesuada eros varius tristique a at orci. Nulla vulputate, leo sit amet rhoncus suscipit, enim ex venenatis ipsum, et porttitor Mauris ut felis malesuada eros varius tristique a at orci. Mauris ut felis malesuada eros varius tristique a at orci. Nulla vulputate, leo sit amet rhoncus suscipit, enim ex venenatis ipsum, et porttitor Mauris ut felis malesuada eros varius tristique a at orci Mauris ut felis malesuada eros varius tristique a at orci. Nulla vulputate, leo sit amet rhoncus suscipit, enim ex venenatis ipsum, et porttitor Mauris ut felis malesuada eros varius tristique a at orci Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati cum voluptatum sapiente magni eos in quam porro soluta, voluptatem, ducimus eveniet facilis autem tempore, nisi suscipit voluptate sed fuga sint. Mauris ut felis malesuada eros varius tristique a at orci. Nulla vulputate, leo sit amet rhoncus suscipit, enim ex venenatis ipsum, et porttitor Mauris ut felis malesuada eros varius tristique a at orci. Mauris ut felis malesuada eros varius tristique a at orci. Nulla vulputate, leo sit amet rhoncus suscipit, enim ex venenatis ipsum, et porttitor Mauris ut felis malesuada eros varius tristique a at orci Mauris ut felis malesuada eros varius tristique a at orci. Nulla vulputate, leo sit amet rhoncus suscipit, enim ex venenatis ipsum, et porttitor Mauris ut felis malesuada eros varius tristique a at orci Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati cum voluptatum sapiente magni eos in quam porro soluta, voluptatem, ducimus eveniet facilis autem tempore, nisi suscipit voluptate sed fuga sint.
+     </p>
+      </div>
     </div>
   )
 }

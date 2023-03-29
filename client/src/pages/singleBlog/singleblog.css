@@ -1,4 +1,18 @@
 .singleBlog{
+    margin-top: 120px;
     display: flex;
-    flex-direction: column;
+}
+
+.sideList{
+    flex: 2;
+}
+
+.detail{
+    flex: 4;
+}
+
+@media screen and (max-width: 480px){
+    .singleBlog{
+        flex-direction: column;
+    }
 }
