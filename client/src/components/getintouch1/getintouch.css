@@ -1,0 +1,58 @@
+.getinouch{
+    height: 100vh;
+    width: 100%;
+}
+
+.gContainer{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.gLeft{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    gap: 25px;
+}
+
+.gTitle{
+    font-weight: 400;
+}
+
+.gInput{
+    padding: 15px;
+    border: none;
+    background: #e8e6e6;
+    outline: none;
+}
+
+.gInput:focus{
+    outline: 1px solid yellow
+}
+
+.gBtn{
+    color: white;
+    background:  rgb(205, 169, 50);
+    border: none;
+    padding: 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.gRight{
+    flex: 1;
+}

@@ -3,6 +3,7 @@ import { ViewHeadlineSharp } from '@mui/icons-material'
 import img from '../../assets/1676721627373.jpg'
 import { useState } from 'react'
 import Sidebar from '../HamburgerMenu/Sidebar'
+import {Link} from 'react-router-dom'
 
 const Navbar = () => {
   const [scrolled, setScrolled] = useState(false)
@@ -23,11 +24,11 @@ const Navbar = () => {
       </div>
 
       <div className='right'>
-        <span className='rightNav a'>Home</span>
-        <span className='rightNav a'>Service</span>
-        <span className='rightNav a'>Blog</span>
-        <span className='rightNav a'>Contact Us</span>
-        <button className='rightNav btn b'>Get a Quote</button>
+        <span className='rightNav a'><Link className='link' to='/'>Home</Link></span>
+        <span className='rightNav a'><Link className='link' to='/service'>Service</Link></span>
+        <span className='rightNav a'><Link className='link' to='/blog'>Blog</Link></span>
+        <span className='rightNav a'><Link className='link' to='/contact'>Contact Us</Link></span>
+        <button className='rightNav btn b'><Link></Link>Get a Quote</button>
       </div>
 
       <div className={scrolled ? 'iconWrapper scrolling' : 'iconWrapper'}> 

@@ -4,7 +4,7 @@ const NewsLetter = () => {
   return (
     <div className='newletter'>
       <div className='newsRight'>
-        <h1>Subscribe to our newsletter for latest update of our services/product</h1>
+        <h1>Subscribe to our newsletter!</h1>
       </div>
       <div className='newsLeft'>
         <div className='newsContainer'>

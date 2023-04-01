@@ -1,4 +1,5 @@
 import './sidebar.css'
+import {Link} from 'react-router-dom'
 const Sidebar = ({show, onClose}) => {
    
     if(!show) {
@@ -8,10 +9,10 @@ const Sidebar = ({show, onClose}) => {
         <nav onClick={onClose} className='sidebar-container'>
             <div onClick={e => e.stopPropagation()} className='sidebar-content-container'>
                 <div className='sidebar-link-container'>
-                    <a href="j">Home</a>
-                    <a href="j">Service</a>
-                    <a href="j">Blog</a>
-                    <a href="j">Contact Us</a>
+                    <Link to='/'>Home</Link>
+                    <Link to='/service'>Service</Link>
+                    <Link to='/blog'>Blog</Link>
+                    <Link to='/contact'>Contact Us</Link>
                 </div>
                 
             </div>
