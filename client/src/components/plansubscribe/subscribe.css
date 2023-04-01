@@ -31,6 +31,42 @@
     background-image: linear-gradient(to right, #e9447e, #FFBA82);
     color: white;
 }
+.modal-container {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.222);
+    color: white;
+    backdrop-filter: blur(8px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.modal{
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    width: 50%;
+    padding: 20px 0;
+    background-color: rgba(131, 131, 131, 0.727);
+    box-shadow: 1px 1px 20px 1px rgb(99, 99, 99);
+    border: 1px solid rgb(63, 63, 63);
+}
+.modal >form > input {
+    width: 60%;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 7px;
+    border: none;
+}
+.modal > button {
+    width: 30px;
+    background-color: blue;
+    align-self: center;
+}
 
 @media screen and (min-width: 700px){
     .subscribe-container {
