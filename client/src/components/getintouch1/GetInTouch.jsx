@@ -1,4 +1,5 @@
 import './getintouch.css'
+import img from '../../assets/thum4.jpg'
 
 const GetInTouch = () => {
 
@@ -18,7 +19,7 @@ const GetInTouch = () => {
                 </form>
             </div>
             <div className='gRight'>
-
+            <img src={img} alt='' className='gImg'/>
             </div>
         </div>
    

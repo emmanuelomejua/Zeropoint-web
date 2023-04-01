@@ -12,7 +12,7 @@ import Subscribe from '../../components/plansubscribe/Subscribe'
 const Home = () => {
   return (
     <div className='home'>
-      <Header/>
+        <Header/>
         <Specialization/>
         <Agency/>
         <Features/>
